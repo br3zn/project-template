@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -11,11 +11,15 @@ export default function Home() {
 
       <main className={`flex justify-center items-center h-screen`}>
         <h1 className={`text-4xl`}>
-          Welcome to <a className={`text-blue-500 hover:underline`} href="https://nextjs.org">Next.js!</a>
+          Welcome to{" "}
+          <a
+            className={`text-blue-500 hover:underline`}
+            href="https://nextjs.org"
+          >
+            Next.js!
+          </a>
         </h1>
-
       </main>
-
     </>
-  )
+  );
 }
