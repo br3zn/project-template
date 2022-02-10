@@ -26,3 +26,5 @@ npm run jest # run jest tests
 - eslint
 - prettier
 - apollo/client
+- jest
+- cypress
